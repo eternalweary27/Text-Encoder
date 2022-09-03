@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta title = "String Encoder">
+    </head>
+    <body>
+        <h1>String Encoder</h1>
+        <h3><label for = "selectEncodingType">Select Encoding Type</label></h3>
+        <select id = "selectEncodingType">
+            <option value = "Caesar">Caesar Cipher</option>
+            <option value = "Vigenere">Vigenere Cipher</option>
+            <option value = "Binary">Binary</option>
+            <option value = "Hex">Hexstring</option>
+        </select>
+        <input id = "inputKey" type = "text" placeholder = "Enter Encoding Key">
+        <h3><label for = "inputTextArea">Enter Text To Encode Here:</label></h3>
+        <textarea id = "inputTextArea" rows = 10 cols = 100 placeholder = "Enter Plain String"></textarea>
+        <button id = "encodeButton">Encode Text</button>
+        <h3><label for = "outputTextArea">Encoded Text Will Appear Here:</label></h3>
+        <textarea id = "outputTextArea" rows = 10 cols = 100 placeholder = "Converted Text"></textarea>
+        <button id = "decodeButton">Decode Text</button>
+    </body>
+    <script src = "encoders.js"></script>
+    <script src = "index.js"></script>
+</html>
